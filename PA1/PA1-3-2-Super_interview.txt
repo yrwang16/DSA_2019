@@ -1,0 +1,7 @@
+1.定义listnode结构体及list类，依题意仅需实现insert和visit操作。
+2.insert即按课上讲过的，定义insertassucc函数，插入在当前位置之后。（本题中无需使用insertaspred）
+3.而visit函数仅需要将其中的data输出。
+4.init函数构建header及trailer，并将它们相连。
+5.接下来录入n与m，并且开始插入，每向右移m次后，在当前元素后面插入，若碰到trailer，则跳到队首。
+6.将此过程结束后，反向遍历实现visit操作即可，同理，碰到header跳到队尾。
+7.时间复杂度为O(nm)，满足条件。
